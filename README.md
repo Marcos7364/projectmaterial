@@ -1,59 +1,121 @@
-# Projectmaterial
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+# 📚 Project Material - Angular Components Showcase
 
-## Development server
+Este proyecto es una colección de ejercicios y ejemplos de componentes construidos con **Angular** y **Angular Material**, ideales para aprender y reutilizar elementos de interfaz modernos y responsivos.
 
-To start a local development server, run:
+Cada carpeta dentro de `src/app/components/` representa un componente individual, diseñado para demostrar funcionalidades específicas con buenas prácticas de desarrollo web moderno.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📦 Contenido del Proyecto
 
-## Code scaffolding
+A continuación, se describen cada uno de los ejercicios incluidos:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+### 🔍 `autocomplete-overview`
+Demuestra el uso básico del componente `mat-autocomplete` para proporcionar sugerencias de autocompletado en campos de entrada. Es útil en formularios con listas dinámicas como nombres, ciudades o productos.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+### 🎯 `badge`
+Este componente muestra cómo implementar **badges** o insignias, que son pequeños contadores o indicadores visuales normalmente superpuestos a botones o íconos. Ideal para mostrar notificaciones (ej. "5 mensajes nuevos").
 
-## Building
+---
 
-To build the project run:
+### 🏷️ `badge-overview`
+Expande la funcionalidad de los badges mostrando diferentes estilos, colores, tamaños y posiciones. Brinda una vista general del poder de personalización que ofrece Angular Material.
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 📥 `bottom-sheet`
+Implementación de una **hoja inferior modal** (bottom sheet), muy útil en aplicaciones móviles para mostrar opciones, formularios o acciones rápidas sin cambiar de pantalla.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 🔘 `button`
+Muestra múltiples estilos y variantes del componente `mat-button`, incluyendo botones elevados, planos, con íconos y deshabilitados. También sirve como base para acciones interactivas en formularios o navegación.
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+### 🔄 `buttontoggle`
+Demuestra cómo usar botones tipo **toggle** (interruptores visuales) para seleccionar una o más opciones. Muy útil para filtros, selecciones múltiples o estados binarios (activado/desactivado).
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+### 🛒 `cart`
+Simula un **carrito de compras**, donde se pueden agregar, listar o eliminar elementos. Puede incluir lógica de totales, validaciones y secciones visuales con precios, cantidades y acciones.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+### 💬 `cdialogo`
+Incluye ejemplos de **diálogos personalizados**, donde el usuario puede interactuar con mensajes, formularios u opciones en una ventana modal. Utiliza `DialogElementsExampleDialog.html` como contenido emergente.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+### ☑️ `checkbox`
+Implementa varios ejemplos de **casillas de verificación**, útiles para permitir al usuario hacer múltiples selecciones. Incluye manejo de estados (activo, inactivo, indeterminado) y validaciones.
+
+---
+
+### 🧩 `chips`
+Muestra cómo usar **chips** para representar elementos como etiquetas, entradas o filtros seleccionados. Muy útiles en buscadores, filtros de productos o selección múltiple.
+
+---
+
+### 📅 `datepicker`
+Ejemplo completo del componente **selector de fecha**, con opciones de formato, navegación por calendario, deshabilitar fechas, entre otros. Esencial para formularios que requieren selección de fechas.
+
+---
+
+### 🧱 `divis`
+Proporciona ejemplos de **divisores visuales** para organizar el contenido dentro de tarjetas, listas u otras secciones. Mejora la estructura visual de las interfaces.
+
+---
+
+### 📂 `expanel`
+Uso de **paneles expandibles** o *accordion*, muy usados en preguntas frecuentes (FAQ), formularios largos o menús ocultos. Permite mostrar contenido adicional sin sobrecargar visualmente.
+
+---
+
+### 🧾 `formfield`
+Contiene estructuras de **campos de formulario** incluyendo combinaciones con `mat-label`, `mat-error`, `mat-hint` y validaciones en tiempo real.
+
+---
+
+### 🔤 `input`
+Componentes de entrada de texto básicos y avanzados. Puede incluir placeholders, validaciones, íconos embebidos, textos de ayuda y comportamiento reactivo.
+
+---
+
+### 📋 `list`
+Muestra el uso de listas con diferentes configuraciones: simples, con íconos, acciones asociadas, elementos seleccionables o listas anidadas. Muy útil para menús o catálogos.
+
+---
+
+### 🧠 `mat-autocomplete`
+Versión avanzada del autocompletado, integrando funcionalidades complejas como listas filtradas, selección por teclado, eventos de cambio, etc.
+
+---
+
+### 🌐 `overview-autocomplete`
+Resumen de autocompletado mostrando distintas formas de implementarlo. Puede combinar búsquedas locales, asincrónicas o personalizadas.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- Angular
+- Angular Material
+- TypeScript
+- HTML & CSS
+
+---
+
+## 🧑‍💻 Autor
+
+**Marcos Gabriel Cuevas Estevez**  
+Este repositorio sirve como práctica, demostración y punto de partida para proyectos más grandes basados en Angular + Material Design.
+
+---
+
