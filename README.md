@@ -15,6 +15,7 @@ A continuación, se describen cada uno de los ejercicios incluidos:
 
 ### 🔍 `autocomplete-overview`
 Demuestra el uso básico del componente `mat-autocomplete` para proporcionar sugerencias de autocompletado en campos de entrada. Es útil en formularios con listas dinámicas como nombres, ciudades o productos.
+<img width="1483" height="731" alt="image" src="https://github.com/user-attachments/assets/6b8d2031-b367-4026-ad9b-6b13c9ea731f" />
 
 ---
 
