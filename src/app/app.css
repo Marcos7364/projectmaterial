@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1c20 0%, #2d3436 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: 2.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3),
+                 0 0 20px rgba(81, 203, 238, 0.5);
+    background: linear-gradient(45deg, #ffffff, #f5f4f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Contenedor principal de componentes */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de navegación */
+nav {
+    margin-bottom: 3em;
+    padding: 0 1em;
+}
+
+nav table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 1em;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 1.5em;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+nav td {
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav td button {
+    width: 100%;
+    min-width: 150px;
+    background: linear-gradient(135deg, #2d3436 0%, #3d4852 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 1em 1.2em;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+nav td button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+nav td button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #7f5af0 0%, #51cbee 100%);
+    box-shadow: 0 8px 25px rgba(127, 90, 240, 0.4);
+}
+
+nav td button:hover:before {
+    left: 100%;
+}
+
+nav td button:active {
+    transform: translateY(1px);
+}
+
+/* Estilos para los títulos dentro de los componentes */
+.center-content h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(232, 237, 238, 0.5);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav table {
+        border-spacing: 0.5em;
+    }
+
+    nav td button {
+        min-width: 120px;
+        font-size: 0.85em;
+        padding: 0.8em 1em;
+    }
+
+    .center-content {
+        width: 95%;
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
